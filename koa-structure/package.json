@@ -1,0 +1,38 @@
+{
+  "name": "koa-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start1": "nodemon src/index.js",
+    "webpack": "webpack",
+    "start": "nodemon  --exec babel-node src/index.js",
+    "webpack:debug": "node --inspect-brk ./node_modules/.bin/webpack --inline --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "koa": "^2.10.0",
+    "koa-body": "^4.1.1",
+    "koa-combine-routers": "^4.0.2",
+    "koa-helmet": "^5.2.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^6.0.3",
+    "nodemon": "^1.19.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
