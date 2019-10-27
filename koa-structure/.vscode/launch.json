@@ -15,5 +15,5 @@
       "internalConsoleOptions": "neverOpen",
       "runtimeArgs": ["--exec", "babel-node"]
     }
-  ]z
+  ]
 }
